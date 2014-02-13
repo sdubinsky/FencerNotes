@@ -18,8 +18,8 @@ public class FrontPage extends Activity {
         setContentView(R.layout.frontpage);
     }
 
-    public void editFencer(View view){
-        Intent intent = new Intent(this, FencerEdit.class);
+    public void listFencers(View view){
+        Intent intent = new Intent(this, FencerList.class);
         startActivity(intent);
     }
 

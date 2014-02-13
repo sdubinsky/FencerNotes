@@ -26,10 +26,6 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     //Triggers: allow you to ensure certain conditions are met before adding to a table.
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-
-        System.out.println("CREATE TABLE " + fencerTable + "( " +
-        colName + " TEXT, " + colWeapon + " TEXT, " + "_id INTEGER PRIMARY KEY AUTOINCREMENT);");
-
         sqLiteDatabase.execSQL("CREATE TABLE " + fencerTable + "( " +
                 colName + " TEXT, " + colWeapon + " TEXT, " + "_id INTEGER PRIMARY KEY AUTOINCREMENT);");
     }

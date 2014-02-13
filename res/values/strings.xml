@@ -11,4 +11,5 @@
     <string name="mainFrthBtn">Stats</string>
     <string name="save">Save</string>
     <string name="fencers">Fencers</string>
+    <string name="addFencer">Add Fencer</string>
 </resources>

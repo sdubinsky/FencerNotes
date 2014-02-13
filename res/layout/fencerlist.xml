@@ -22,6 +22,15 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#FFFFFF" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addFencer"
+            android:id="@+id/addFencer"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:onClick="createFencer"/>
+
     </RelativeLayout>
      <RelativeLayout
         android:id="@+id/relativeLayout1"
@@ -38,6 +47,7 @@
          android:layout_height="wrap_content"
          android:layout_alignParentLeft="true">
      </ListView>
+
      </RelativeLayout>
 
 </RelativeLayout>
