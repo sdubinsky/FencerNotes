@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="8"
+        android:id="@+id/oppName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/oppHandedness"
+        android:layout_below="@+id/oppRecord"
+        android:layout_alignParentRight="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lefty"
+            android:id="@+id/lefty"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/righty"
+            android:id="@+id/righty"
+            android:checked="false"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oppWeapon"
+        android:layout_alignTop="@+id/oppHandedness"
+        android:layout_alignParentLeft="true"
+        android:text="@string/weapon"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oppClub"
+        android:layout_below="@+id/oppWeapon"
+        android:layout_alignParentLeft="true"
+        android:text="@string/club"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/oppNotes"
+        android:lines="10"
+        android:layout_below="@+id/oppClub"
+        android:layout_alignParentLeft="true"
+        android:singleLine="false"
+        android:background="@color/white"
+        android:layout_marginTop="77dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/oppSave"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="saveFencer"/>
+
+</RelativeLayout>

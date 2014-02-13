@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FencerNotes</string>
+    <string name="weapon">Weapon</string>
+    <string name="lefty">Left-Handed</string>
+    <string name="righty">Right-Handed</string>
+    <string name="club">Club</string>
+    <string name="mainTopBtn">Fencers</string>
+    <string name="mainScndBtn">Lessons</string>
+    <string name="mainThrdBtn">Tournaments</string>
+    <string name="mainFrthBtn">Stats</string>
+    <string name="save">Save</string>
+    <string name="fencers">Fencers</string>
+</resources>
